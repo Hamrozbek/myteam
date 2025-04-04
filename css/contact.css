@@ -1,0 +1,292 @@
+@font-face {
+    font-family: 'Livvic';
+    src: url('../Livvic/Livvic-Bold.woff') format('woff2');
+    font-weight: bold;
+    font-style: normal;
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'Livvic';
+    src: url('../Livvic/Livvic-Bold.woff2') format('woff2');
+    font-weight: 700;
+    font-style: normal;
+    font-display: swap;
+}
+
+* {
+    margin: 0px;
+    padding: 0px;
+    text-decoration: none;
+    list-style: none;
+}
+
+body {
+    font-family: 'Livvic', sans-serif;
+    background-color: #014E56;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+}
+
+.site-header {
+    padding: 73px 0 129px;
+}
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 80px;
+}
+
+.header-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.header-link {
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+    transform: all 0.4s;
+}
+
+.header-link:hover {
+    color: #F67E7E;
+}
+
+.header-link:active {
+    cursor: grabbing;
+}
+
+.header-contact-link {
+    padding: 9px 33px 11px 32px;
+    text-decoration: none;
+    color: white;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    border: 2px solid #FFFFFF;
+    border-radius: 24px;
+
+}
+
+.main-logo-wrapper {
+    background-image: url(../images/contact1.svg), url(../images/contakt2.svg);
+    background-repeat: no-repeat;
+    background-size: 100px 200px, 110px 200px;
+    background-position: left top, right bottom;
+}
+
+.header-contact-link:hover {
+    background-color: #F67E7E;
+    border-color: #F67E7E;
+    color: #012F34;
+}
+
+.header-contact-link:active {
+    background-color: white;
+    border-color: white;
+    color: #012F34;
+}
+
+.contact-hero-section {
+    padding-bottom: 120px;
+}
+
+.contact-hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.contact-hero-content-wrapper>h2 {
+    margin-bottom: 16px;
+    font-weight: 700;
+    font-size: 64px;
+    line-height: 100px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.contact-hero-content-wrapper>p {
+    color: #F67E7E;
+    font-weight: 700;
+    font-size: 32px;
+    line-height: 48px;
+    letter-spacing: 0px;
+    margin-bottom: 32px;
+}
+
+.contact-list {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 23px;
+}
+
+.contact-item>p {
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: white;
+}
+
+.contact-form {
+    width: 540px;
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+}
+
+.contact-input {
+    background-color: transparent;
+    padding-left: 14px;
+    padding-bottom: 17px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    outline: none;
+
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: #FFFFFF;
+}
+
+.contact-input::placeholder {
+    font-family: "Livvic", sans-serif;
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: -0.12px;
+    color: #FFFFFF;
+    opacity: 60%;
+}
+
+.contact-input:focus {
+    border-color: white;
+}
+
+.contact-input:focus::placeholder {
+    opacity: 100%;
+}
+
+.form-btn {
+    width: 123px;
+    padding: 9px 0 11px;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #004047;
+    background-color: white;
+    border-radius: 24px;
+    border: none;
+    cursor: pointer;
+}
+
+.site-footer {
+    padding: 48px 0;
+    background-color: #002529;
+}
+
+.footer {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-wrapper {
+    display: flex;
+    gap: 125px;
+}
+
+.footer-logo>a {
+    display: inline-block;
+    margin-bottom: 25px;
+}
+
+.footer-list {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+.footer-item>a {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 28px;
+    letter-spacing: 0px;
+    color: #FFFFFF;
+    transition: all 0.4s;
+}
+
+.footer-item>a:hover {
+    color: #F67E7E;
+}
+
+.footer-desc {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 60%;
+}
+
+.footer-img {
+    display: flex;
+    flex-direction: column;
+    align-items: end;
+    gap: 51px;
+    padding-left: 280px;
+}
+
+.footer-link {
+    display: flex;
+    gap: 16px;
+}
+
+.footer-link>a {
+    color: white;
+    transition: 0.3s;
+}
+
+.footer-link>a:hover {
+    color: #F67E7E;
+}
+
+.footer-img>p {
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 25px;
+    letter-spacing: 0px;
+    text-align: right;
+    color: white;
+    opacity: 60%;
+}
